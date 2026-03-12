@@ -8,6 +8,7 @@ public class ContactTest
 	public void createContact()
 	{
 		String BROWSER = System.getProperty("browser","chrome");
+		System.out.println("executing +++++++on poll scm+++++++++++");
 		System.out.println(BROWSER);
 	}
 	
