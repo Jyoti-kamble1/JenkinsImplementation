@@ -7,7 +7,7 @@ public class ContactTestProfillingTest
 	@Test(groups = "FRT")
 	public void createContact()
 	{
-		String BROWSER = System.getProperty("browser");
+		String BROWSER = System.getProperty("browser","chrome");
 		System.out.println(BROWSER);
 		System.out.println("FULL REGRATION TEST:-->Executing contact test for profiling");
 	}

@@ -7,7 +7,7 @@ public class ContactTest
 	@Test
 	public void createContact()
 	{
-		String BROWSER = System.getProperty("browser");
+		String BROWSER = System.getProperty("browser","chrome");
 		System.out.println(BROWSER);
 	}
 	
